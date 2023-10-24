@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css"/>
+
+
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 150px;
+            max-height: 150px;
+            border-radius: 50%; /* Gör bilderna rundade */
+        }
+    </style>
+</head>
+<body>
+
+    
+    <h1>Kontakta Oss</h1>
+
+    <ul>
+        <li>
+            <img src="bilder/0G2A9275-m-1.jpeg" alt="Person 1">
+            <h2>Anna Andersson</h2>
+            <p>E-post: <a href="mailto:anna.andersson@skrotokorn.se">anna.andersson@skrotokorn.se</a></p>
+        </li>
+        <li>
+            <img src="bilder/0G2A9122-m-1.jpeg" alt="Person 2">
+            <h2>Karl Karlsson</h2>
+            <p>E-post: <a href="mailto:karl.karlsson@skrotokorn.se">karl.karlsson@skrotokorn.se</a></p>
+        </li>
+        <li>
+            <img src="bilder/0G2A9341-m-1.jpeg" alt="Person 3">
+            <h2>Anton Löfv</h2>
+            <p>E-post: <a href="mailto:anton.löfv@skrotokorn.se">anton.löfv@skrotokorn.se</a></p>
+        </li>
+    </ul>
+
+
+<head>
+    <title>Kontaktformulär</title>
+</head>
+<body>
+    <h1>Kontaktformulär</h1>
+
+    <form action="processa_formular.php" method="post">
+        <label for="namn">Namn:</label>
+        <input type="text" id="namn" name="namn" required>
+        <br>
+
+        <label for="adress">Adress:</label>
+        <input type="text" id="adress" name="adress">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="telefon">Telefonnummer:</label>
+        <input type="tel" id="telefon" name="telefon">
+        <br>
+
+        <label>Privat eller Företag:</label>
+        <input type="radio" id="privat" name="typ" value="Privat">
+        <label for="privat">Privat</label>
+        <input type="radio" id="foretag" name="typ" value="Företag">
+        <label for="foretag">Företag</label>
+        <br>
+
+        <label for="storlek">Storlek på företaget:</label>
+        <select id="storlek" name="storlek">
+            <option value="1-100">1-100 anställda</option>
+            <option value="101-1000">101-1000 anställda</option>
+            <option value="Mer än 1000">Mer än 1000 anställda</option>
+        </select>
+        <br>
+
+        <label for="fraga">Fråga till företaget:</label>
+        <textarea id="fraga" name="fraga" rows="4" cols="50"></textarea>
+        <br>
+
+        <label for="nyhetsbrev">Vill ha nyhetsbrev:</label>
+        <input type="checkbox" id="nyhetsbrev" name="nyhetsbrev" value="Ja">
+        <br>
+
+        <label for="kontakt">Vill bli kontaktad på telefon:</label>
+        <input type="checkbox" id="kontakt" name="kontakt" value="Ja">
+        <br>
+
+        <input type="submit" value="Skicka">
+    </form>
+
+
+
+
+</body>
+</html>

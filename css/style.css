@@ -1,0 +1,82 @@
+body{
+
+background-color: #e1e1e1;
+
+}
+
+
+.contact-info {
+    position: absolute;
+    top: 160px;
+    right: 30px; 
+    width: 200px;
+    background-color: #d18d5a; /* Bakgrundsfärg för kontaktinfo-området */
+    border: 2px solid #000000; /* Ram runt kontaktinfo-området */
+    padding: 10px; /* Justera fyllning efter behov */
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2); /* Lägger till en skugga för att göra området tydligt */
+    border-radius: 20px;
+}
+
+.contact-info iframe {
+    width: 200px; /* Justera önskad bredd för iframe */
+    height: 100px; /* Justera önskad höjd för iframe */
+    
+}
+
+h1 {
+    color: rgb(134, 64, 61);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+
+}
+
+
+h2{
+    color: rgb(134, 64, 61);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.flex-container{
+
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50vw;
+    padding: 5px;
+
+}
+.left {
+    flex-grow: 1;
+    background-color: rgb(216, 146, 71);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    }
+.resten1{
+    flex-grow: 2;
+    background-color: rgb(216, 146, 71);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.resten2{
+    flex-grow: 3;
+    background-color: rgb(216, 146, 71);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+.resten3{
+    flex-grow: 4;
+    background-color: rgb(216, 146, 71);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
