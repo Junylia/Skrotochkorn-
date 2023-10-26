@@ -27,9 +27,11 @@
         }
     </style>
 </head>
-<body>
+<body onload="buildMenu()">
 
     <h1>Våra Produkter</h1>
+
+    <div class="flex-container" id="Meny"></div>
 
     <table>
         <tr>
@@ -57,5 +59,11 @@
             <td>Hästkrafter från 150 till över 600 hk och har lastvikter som sträcker sig från några ton till över 40 ton, beroende på typ och konfiguration.</td>
         </tr>
     </table>
+
+    <footer>
+        <p>&copy; 2023 Skrot & Korn</p>
+    </footer>
+
+    <script src="script/meny.js"></script>
 </body>
 </html>

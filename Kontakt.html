@@ -21,10 +21,12 @@
         }
     </style>
 </head>
-<body>
+<body onload="buildMenu()">
 
     
     <h1>Kontakta Oss</h1>
+
+    <div class="flex-container" id="Meny"></div>
 
     <ul>
         <li>
@@ -49,6 +51,10 @@
     <title>Kontaktformulär</title>
 </head>
 <body>
+    <br><br>
+
+    <div class="background-container">
+
     <h1>Kontaktformulär</h1>
 
     <form action="processa_formular.php" method="post">
@@ -97,9 +103,13 @@
 
         <input type="submit" value="Skicka">
     </form>
+</div>
 
+<footer>
+    <p>&copy; 2023 Skrot & Korn</p>
+</footer>
 
-
+<script src="script/meny.js"></script>
 
 </body>
 </html>

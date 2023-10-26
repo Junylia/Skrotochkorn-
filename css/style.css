@@ -6,20 +6,22 @@ background-color: #e1e1e1;
 
 
 .contact-info {
-    position: absolute;
-    top: 160px;
-    right: 30px; 
-    width: 200px;
-    background-color: #d18d5a; /* Bakgrundsfärg för kontaktinfo-området */
-    border: 2px solid #000000; /* Ram runt kontaktinfo-området */
-    padding: 10px; /* Justera fyllning efter behov */
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2); /* Lägger till en skugga för att göra området tydligt */
+    
+    
+    width: 300px;
+    height: 140px;
+    background-color: #898989d2; /* Bakgrundsfärg för kontaktinfo-området */
+    padding: 5px; /* Justera fyllning efter behov */
     border-radius: 20px;
+    margin: auto;
+    
 }
 
 .contact-info iframe {
-    width: 200px; /* Justera önskad bredd för iframe */
+    width: 250px; /* Justera önskad bredd för iframe */
     height: 100px; /* Justera önskad höjd för iframe */
+    position: center;
+    border-radius: 20px;
     
 }
 
@@ -78,5 +80,203 @@ h2{
     border-radius: 30px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#left-menu {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 100%;
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#left-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#left-menu li {
+    margin-bottom: 10px;
+}
+
+#left-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    text-decoration: none; 
+    color: #040404; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+  
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.background-container{
+    background-color:rgba(154, 167, 161, 0.25) ;
+    padding: 10px;
+}
+
+/* Gemensamma stilar för hela tabellen */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Stilar för bilder i tabellen */
+table img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 10px;
+}
+
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+
+table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+table td {
+    background-color: #fff;
+}
+
+
+table td:hover {
+    background-color: #e0e0e0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+video, iframe {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+
+li{
+    display: inline;
+
+
+}
+
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
 
